@@ -14,6 +14,11 @@ def whatsmyname():
         print("Aww... sending virtual hugs")
     else:
         print("I couldn't tell how you're feeling, but I'm here anyway")
+
+def whatsyourname():
+    print("Okay! What is your name ?_\n")
+    user_name = input("My name is__")
+    print("Okay,hello ",user_name)
         
 while True:
     continue_now = input("\nWhat would you wanna do?\n 1. Talk\n 2. Ask\n 3. Quit\n")
