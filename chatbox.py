@@ -26,6 +26,7 @@ while True:
         quit()
     else:
         print("I didn't understand that... try 1, 2, or 3 💬")
+        quit()
         
 
             
