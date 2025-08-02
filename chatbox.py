@@ -15,7 +15,7 @@ def whatsmyname():
     else:
         print("I couldn't tell how you're feeling, but I'm here anyway")
         
-while True
+while True:
     continue_now = input("\nWhat would you wanna do?\n 1. Talk\n 2. Ask\n 3. Quit\n")
     if continue_now == "1":
         whatsmyname()
@@ -26,11 +26,6 @@ while True
         quit()
     else:
         print("I didn't understand that... try 1, 2, or 3 💬")
-
-
-def loopFunction()
-    while input(continue_now) !== 1 | 2 | 2
-        continue_chat()
         
 
             
