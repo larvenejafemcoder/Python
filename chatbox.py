@@ -24,6 +24,7 @@ while True:
     continue_now = input("\nWhat would you wanna do?\n 1. Talk\n 2. Ask\n 3. Quit\n")
     if continue_now == "1":
         whatsmyname()
+        whatsyourname()
     elif continue_now == "2":
         print("Sure! What do you wanna talk about?")
     elif continue_now == "3":
