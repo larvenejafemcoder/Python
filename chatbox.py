@@ -1,6 +1,6 @@
 print("Hello, I am an AI chatbox, ready for service!")
 
-def whatsmyname():
+def generalQuest():
     print("Okay hello! My name is PookieGPT")
     print("I was written in Python to make you feel at home ")
     
@@ -15,7 +15,7 @@ def whatsmyname():
     else:
         print("I couldn't tell how you're feeling, but I'm here anyway")
 
-def whatsyourname():
+def userName():
     print("Okay! What is your name ?_\n")
     user_name = input("My name is__")
     print("Okay,hello ",user_name)
@@ -23,8 +23,8 @@ def whatsyourname():
 while True:
     continue_now = input("\nWhat would you wanna do?\n 1. Talk\n 2. Ask\n 3. Quit\n")
     if continue_now == "1":
-        whatsmyname()
-        whatsyourname()
+        generalQuest()
+        userName()
     elif continue_now == "2":
         print("Sure! What do you wanna talk about?")
     elif continue_now == "3":
@@ -34,7 +34,5 @@ while True:
         print("I didn't understand that... try 1, 2, or 3 💬")
         quit()
         
-
-            
-
+           
 continue_chat()
